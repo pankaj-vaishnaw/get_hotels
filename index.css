@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke !important;
+    width: 100%;
+    height: 200vh;
+}
+nav{
+    background-color: whitesmoke !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navbar{
+    top: 0;
+    position: sticky !important; 
+}
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: 800;
+    color: rgb(20, 20, 20) !important;
+    text-shadow: 2px 2px 5px  whitesmoke;
+}
+.nav-item-all{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 20%;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+.nav-item-all a{
+    text-decoration: none;
+    font-size: 20px;
+    color: violet;
+}
+.nav-item-all a:hover{
+    transform: scale(1.3);
+    color: blue;
+}
+.search-bar{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 5rem;
+    background-color: #176B87;
+    /* border: 1px solid brown; */
+}
+h1{
+    background-color: aquamarine;
+    padding: 10px 5px;
+}
+.search-bar input{
+    width: 25%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid black;
+    padding-inline:  10px 15px;
+    box-shadow: inset 1px 1px 2px 1px gray;
+}
+.search-bar input::placeholder{
+    color: rgb(37, 35, 37);
+}
+.search-bar button{
+    border: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px rgba(95, 81, 81, 0.486);
+    background-color: #053B50;
+    color: white;
+    font-weight: 600;
+}
+.search-bar button:hover{
+    background-color: brown;
+}
+.result-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.left{
+    width: 20%;
+    height: 100vh;
+    padding: 0px 0px;
+    border-right: 1px solid black;
+    /* background-color: blueviolet; */
+}
+.right{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    margin: 100px;
+    width: 80%;
+    border: 1px solid green;
+    margin: 10px 0px;
+    z-index: -1;
+}
+#left-side-search{
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+}
+#radio-button-left{
+    margin-top: 200px;
+    line-height: 1.5;
+    margin-left: 50px;
+    
+}
+h4{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.star-rating{
+    height: 30px;
+    width: 40px;
+    margin-left: 20px;
+}
+.form-check-input{
+    border: 1px solid black;
+}
+.property{
+    margin-top: 150px;
+    text-align: center;
+}
+.radio-buttons{
+    margin-top: 100px;
+    margin-left: 30px;
+}

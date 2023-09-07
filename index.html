@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotels Finder</title>
+  <link rel="stylesheet" href="index.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- //navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hotels.com</a>
+
+      <div class="nav-item-all">
+        <a href="#">List your property</a>
+        <a href="#">Support</a>
+        <a href="#">Trips</a>
+        <a href="#">Sign in</a>
+      </div>
+    </div>
+  </nav>
+  <!-- searchBar -->
+  <div class="search-bar">
+    <h3>Enter The Destination</h3>
+    <input placeholder="Enter your destination" type="text" id="destination" class="place">
+    <input placeholder="" type="date" class="date">
+    <input placeholder="enter Number of persons" type="number" class="person">
+    <button id="search-button">Search</button>
+  </div>
+  <!-- result-bar -->
+  <div class="result-bar">
+    <div class="left">
+      <!-- work in progress -->
+      <input type="search"  id="left-side-search">
+
+      <div class="radio-buttons">
+        <h4>Filter by</h4>
+        <h4>guest rating</h4>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              any
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              wonderful 9+
+            </label>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              very good 8+
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              good 7+
+            </label>
+          </div>
+      </div>
+      <div class="property">
+        <h5>property class</h5>
+        <button class="star-rating">1</button>
+        <button class="star-rating">2</button>
+        <button class="star-rating">3</button>
+        <button class="star-rating">5</button>
+      </div>
+    </div>
+    <div class="right" id="right">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
